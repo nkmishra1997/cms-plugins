@@ -1,2 +1,3 @@
-# Troika-2017
-Website for troika 2017
+# CMS-Plugins
+Some plugins for CMS project
+
