@@ -37,9 +37,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Yanone Kaffeesatz', 'sans-serif';
   font-weight: 300;
   text-transform: uppercase;
+    font-style: bold;
 }
 
-h5 {
+h5,h4 {
     text-align: center;
 }
 
