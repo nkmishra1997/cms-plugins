@@ -109,14 +109,14 @@ h2 {
 .navbar-brand {
   background-color: #000000	;
   height: 90px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   position: relative;
   width: 297px;
 }
 
 .navbar-brand img {
   position: absolute;
-  top: -35px;
+  top: 10px;
 }
 
 .navbar-right {
