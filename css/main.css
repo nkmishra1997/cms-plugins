@@ -143,7 +143,7 @@ h2 {
 
 
 .fixed-menu {
-  background-color: #1B7B98;
+  background-color: #000000;
   position: fixed;
   top: 0;
 }
@@ -759,7 +759,7 @@ h2 {
 }
 
 #footer a:hover {
-  color:#1B7B98
+  color:#000000;
 }
 
 
