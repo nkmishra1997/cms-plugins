@@ -35,7 +35,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Yanone Kaffeesatz', 'sans-serif';
-  font-weight: 300;
+  font-weight: 500;
   text-transform: uppercase;
     font-style: bold;
 }
@@ -131,7 +131,7 @@ h2 {
   color: #fff;
   text-transform: uppercase;
   font-family: 'Yanone Kaffeesatz', 'sans-serif';
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .navbar-right li a:hover, 
@@ -245,8 +245,8 @@ h2 {
 
 #main-slider 
 .carousel-indicators li {
-  background-color:#1B7B98;
-  border: 1px solid #1B7B98;
+  background-color:#000000;
+  border: 1px solid #000000;
 }
 
 #main-slider 
@@ -415,7 +415,7 @@ h2 {
 #event h2 {
   color: #FFFFFF;
   font-size: 36px;
-  font-weight: 300;
+  font-weight: 500;
   margin-bottom: 40px;
   margin-top: 70px;
   text-transform: uppercase;
@@ -428,7 +428,7 @@ h2 {
 .single-event h4 {
   color: #FFFFFF;
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 26px;
   margin-top: 25px;
   text-transform: uppercase;
@@ -553,7 +553,7 @@ h2 {
 #twitter-feed .item a, 
 #twitter-feed .item p { 
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 500;
   font-family: 'Yanone Kaffeesatz','sans-serif';
 }
 
@@ -763,3 +763,45 @@ h2 {
 }
 
 
+/****Buttons***/
+
+#controls{
+        margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+.button-controls{
+    font-size: 30px;
+    color: #000000;
+}
+.filter{
+    margin-right: 10px;
+}
+
+.button-controls button {
+    border: none;
+    font-size: 22px;
+    
+    color: black;
+  padding: 8px 8px;
+  font-family: 'FontAwesome', 'sans-serif';
+  font-weight: 600;
+
+}
+
+.button-controls button:hover,
+.button-controls button-focus
+{
+      text-decoration: none;
+
+    outline: none;
+}
+
+
+.button-controls  button:hover, 
+.button-controls button:focus,  
+.button-controls .active button {
+  background-color: black;
+  color: #fff;
+    border-color: black;
+}
