@@ -75,8 +75,8 @@ jQuery(function($) {'use strict',
 
 	map = new GMaps({
 		el: '#gmap',
-		lat: 28.750039, 
-		lng: 77.117559,
+		lat: 28.750039, //DTU latitude
+		lng: 77.117559, //DTU longitude
 		scrollwheel:false,
 		zoom: 16,
 		zoomControl : false,
@@ -89,8 +89,8 @@ jQuery(function($) {'use strict',
 
 	var image = 'images/map-icon.png';
 	map.addMarker({
-		lat: 28.750039, 
-		lng: 77.117559,
+		lat: 28.750039, //DTU latitude
+		lng: 77.117559, //DTU longitude
 		icon: image,
 		animation: google.maps.Animation.DROP,
 		verticalAlign: 'bottom',
