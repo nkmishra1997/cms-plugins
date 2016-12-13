@@ -828,8 +828,8 @@ h11{
 }
 
 .containerItem img {
-    width:620px;
-    height:850px;
+    width:100px;
+    height:100px;
     display: block;
     position: absolute;
     top:40%;
