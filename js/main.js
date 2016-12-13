@@ -1,4 +1,4 @@
-jQuery(function($) {'use strict',
+jQuery(function ($) {'use strict',
 	
 	//Countdown js
 	 $("#countdown").countdown({
@@ -145,6 +145,8 @@ jQuery(function($) {'use strict',
 
 	map.setStyle("map_style");
 }());
+
+
 
 
 
