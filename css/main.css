@@ -471,7 +471,7 @@ h2 {
 **************************/
 
 #about {
-  background-color: #75B46E;  
+  background-color: #FFFFFF;  
   position: relative;  
   width: 100%;
   display: flex;
@@ -674,10 +674,11 @@ h2 {
 
 .contact-section {
   background-color: #f7ab24;
-  background-image: url("../images/background/register%20background.png");
+  background-image: url("../images/background/register.png");
   background-size:contain;
   background-repeat:no-repeat;  
   position: relative;
+    background-size: 1530px;
     
 }
 
@@ -812,13 +813,16 @@ h2 {
 }
 
 
+
 .button-controls  button:hover, 
 .button-controls button:focus,  
-.button-controls .active button {
+.button-controls button:active .active {
   background-color: black;
   color: #fff;
     border-color: black;
 }
+
+
 
 .containerItem{
     margin-top: 25px;
