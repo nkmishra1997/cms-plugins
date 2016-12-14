@@ -45,7 +45,11 @@ h5,h4 {
 }
 
 h2 {
-  font-size: 36px
+  font-size: 50px;
+    color: midnightblue;
+    text-align: right;
+    font-weight: 550;
+    margin-right: 50px;
 }
 
 .navbar-toggle {
@@ -483,8 +487,8 @@ h2 {
 }
 
 .about-content {
-  width: 50%;
-   background-image: url("../images/about-bg.jpg");
+  width: 100%;
+  background-image: url("../images/background/about%20troika.png");
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -502,17 +506,24 @@ h2 {
 }
 
 #about .btn-primary {
-  background-color: #137c61;
+  background-color:midnightblue;
   color: #fff;
   text-transform: capitalize;
   border: none;
   margin-top: 28px;
+    margin-left: 1200px;
 }
 
 #about .btn-primary:hover {
-  background-color: #126d55
+  background-color: white;
+    color:darkblue;
 }
 
+#about .comt{
+    background-color: mediumslateblue;
+    width:500px;
+    height:500px;
+}
 
 
 /*************************
@@ -783,6 +794,7 @@ h2 {
     border: none;
     font-size: 22px;
     color: black;
+    border-color: black;
   padding: 8px 8px;
       font-family: 'Roboto', sans-serif;
   font-weight: 600;
@@ -793,7 +805,9 @@ h2 {
 .button-controls button-focus
 {
       text-decoration: none;
+    border: none;
 
+    border-color: black;
     outline: none;
 }
 
