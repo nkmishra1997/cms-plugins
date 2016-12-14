@@ -35,7 +35,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Yanone Kaffeesatz', 'sans-serif';
-  font-weight: 300;
+  font-weight: 500;
   text-transform: uppercase;
     font-style: bold;
 }
@@ -45,7 +45,11 @@ h5,h4 {
 }
 
 h2 {
-  font-size: 36px
+  font-size: 50px;
+    color: midnightblue;
+    text-align: right;
+    font-weight: 550;
+    margin-right: 50px;
 }
 
 .navbar-toggle {
@@ -107,20 +111,20 @@ h2 {
 }
 
 .navbar-brand {
-  background-color: #1B7B98	;
+  background-color: #000000	;
   height: 90px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   position: relative;
   width: 297px;
 }
 
 .navbar-brand img {
   position: absolute;
-  top: -35px;
+  top: 10px;
 }
 
 .navbar-right {
-  background-color: #1B7B98;
+  background-color: #000000;
   padding:0 95px 0 0;
   opacity: .9
 }
@@ -131,19 +135,19 @@ h2 {
   color: #fff;
   text-transform: uppercase;
   font-family: 'Yanone Kaffeesatz', 'sans-serif';
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .navbar-right li a:hover, 
 .navbar-right li a:focus,  
 .navbar-right .active a {
   background-color: #fff;
-  color: #16728f
+  color: #000000
 }
 
 
 .fixed-menu {
-  background-color: #1B7B98;
+  background-color: #000000;
   position: fixed;
   top: 0;
 }
@@ -245,8 +249,8 @@ h2 {
 
 #main-slider 
 .carousel-indicators li {
-  background-color:#1B7B98;
-  border: 1px solid #1B7B98;
+  background-color:#000000;
+  border: 1px solid #000000;
 }
 
 #main-slider 
@@ -415,7 +419,7 @@ h2 {
 #event h2 {
   color: #FFFFFF;
   font-size: 36px;
-  font-weight: 300;
+  font-weight: 500;
   margin-bottom: 40px;
   margin-top: 70px;
   text-transform: uppercase;
@@ -428,7 +432,7 @@ h2 {
 .single-event h4 {
   color: #FFFFFF;
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 26px;
   margin-top: 25px;
   text-transform: uppercase;
@@ -483,8 +487,8 @@ h2 {
 }
 
 .about-content {
-  width: 50%;
-   background-image: url("../images/about-bg.jpg");
+  width: 100%;
+  background-image: url("../images/background/about%20troika.png");
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -502,17 +506,24 @@ h2 {
 }
 
 #about .btn-primary {
-  background-color: #137c61;
+  background-color:midnightblue;
   color: #fff;
   text-transform: capitalize;
   border: none;
   margin-top: 28px;
+    margin-left: 1200px;
 }
 
 #about .btn-primary:hover {
-  background-color: #126d55
+  background-color: white;
+    color:darkblue;
 }
 
+#about .comt{
+    background-color: mediumslateblue;
+    width:500px;
+    height:500px;
+}
 
 
 /*************************
@@ -553,7 +564,7 @@ h2 {
 #twitter-feed .item a, 
 #twitter-feed .item p { 
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 500;
   font-family: 'Yanone Kaffeesatz','sans-serif';
 }
 
@@ -589,7 +600,7 @@ h2 {
 
 #sponsor {
   background-color: #1881a2;
-  background-image: url("../images/sponsor-bg.jpg");
+  background-image: url("../images/background/sponsor.png");
   background-position:50% 0;
   background-size: cover;
   background-repeat:no-repeat;
@@ -663,11 +674,11 @@ h2 {
 
 .contact-section {
   background-color: #f7ab24;
-  background-image: url("../images/contact-bg.jpg");
-  background-position:60% 0;
+  background-image: url("../images/background/register%20background.png");
   background-size:contain;
   background-repeat:no-repeat;  
   position: relative;
+    
 }
 
 .ear-piece {
@@ -759,7 +770,98 @@ h2 {
 }
 
 #footer a:hover {
-  color:#1B7B98
+  color:#000000;
 }
 
+
+/****Buttons***/
+
+#controls{
+        margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+.button-controls{
+    font-size: 30px;
+    color: #000000;
+    
+}
+.button btn{
+    margin-right: 10px;
+}
+
+.button-controls button {
+    border: none;
+    font-size: 22px;
+    color: black;
+    border-color: black;
+  padding: 8px 8px;
+      font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+
+}
+
+.button-controls button:hover,
+.button-controls button-focus
+{
+      text-decoration: none;
+    border: none;
+
+    border-color: black;
+    outline: none;
+}
+
+
+.button-controls  button:hover, 
+.button-controls button:focus,  
+.button-controls .active button {
+  background-color: black;
+  color: #fff;
+    border-color: black;
+}
+
+.containerItem{
+    margin-top: 25px;
+    width: 300px;
+    height: 300px;
+    border-radius: 4px;
+    background-color: #F0F0F0;	
+}
+
+h10{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size:25px;
+    
+}
+
+h11{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.containerItem img {
+    width:100px;
+    height:100px;
+    display: block;
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-49%,-35%);
+    -webkit-transform: translate(-49%,-35%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform:translate(-50%,-50%);
+}
+
+.containerItem a{
+    color:white;
+    background-color: black;
+    font-family:' Roboto' ,sans-serif;
+    font-size:18px;
+    border-radius: 4px;
+    border: none;
+    padding: 8dp;
+}
 

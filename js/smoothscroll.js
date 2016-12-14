@@ -6,11 +6,11 @@
 // - Michael Herf: ssc_pulse Algorithm
 
 function ssc_init() {
-  if (!document.body) return;
-  var e = document.body;
-  var t = document.documentElement;
-  var n = window.innerHeight;
-  var r = e.scrollHeight;
+    if (!document.body) return;
+    var e = document.body;
+    var t = document.documentElement;
+    var n = window.innerHeight;
+    var r = e.scrollHeight;
   ssc_root = document.compatMode.indexOf("CSS") >= 0 ? t : e;
   ssc_activeElement = e;
   ssc_initdone = true;
