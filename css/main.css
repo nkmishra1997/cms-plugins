@@ -271,15 +271,18 @@ h7 {
 *******Explore CSS******
 **************************/
 
-#explore {
-  background-color: #C34C39;
-  background-image: url("../images/event-bg.jpg");
-  background-position: center bottom;
+#timer {
+  background-color: midnightblue;
+  background-image: url("../images/background/about%20troika.png");
+  background-position: left center;
   background-size: contain;
   background-repeat:no-repeat;
   position: relative;
   overflow: hidden;
+    
+    background-size: cover;
   padding: 130px 0 100px;
+    margin-right: 0px;
 }
 
 .watch {
@@ -288,7 +291,7 @@ h7 {
   top: 7%;
 }
 
-#explore h2 {
+#timer h2 {
   font-size: 42px;
   text-transform: uppercase;
   text-align: center;
@@ -637,10 +640,14 @@ h7 {
 #sponsor {
   background-color: #1881a2;
   background-image: url("../images/background/sponsors-bg.png");
-  background-position:50% 0;
   background-size: cover;
   background-repeat:no-repeat;
   position: relative;
+        
+    opacity: 0.8;
+    background-attachment: fixed;
+    background-position: center;
+
 }
 
 #sponsor.overlay{
@@ -658,8 +665,8 @@ h7 {
 
 
 #sponsor h2 {
-  margin-top: 90px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 10px;
   font-family: monospace;
   color: white;
   text-align: right;
@@ -777,7 +784,7 @@ h7 {
 
 #footer {
   background-color: #212121;
-  background-image: url("../images/footer-bg.jpg");
+  
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -849,7 +856,7 @@ h7 {
     width: 300px;
     height: 300px;
     border-radius: 4px;
-    background-color: #F0F0F0;	
+    background-color: #BDBDBD;	
 }
 
 h10{
