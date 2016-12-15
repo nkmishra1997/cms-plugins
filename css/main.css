@@ -918,3 +918,228 @@ h11{
 .containerItem h2{
     text-transform: none;
 }
+
+.about-content-T p{
+    color:white; 
+    font-size:25px;
+    font-weight:600;
+ text-align:justify; 
+    margin-right:50px; 
+    margin-top:80px;
+}
+
+
+#snighdhaa, #shourya{
+    margin-left:0px;
+    margin-bottom:50px;
+    margin-right:0px
+}
+
+
+
+#a .containerItem{
+    height:100px;
+    width:299px;
+    background:color:#d9d9d9;
+    border-radius:0px;
+    margin:0px
+}
+
+#a .containerItem img {
+   width:299px;
+    height:300px;
+    display:block;
+    position: absolute;
+    top:30%;
+    left:42.5%;
+}
+
+#raghav{
+    margin-left:200px;
+}
+
+
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+      .about-content-T p{
+          font-size: 15px;
+           margin-top:20px;
+          margin-right:20px; 
+      }
+      #a .col-sm-3{
+    margin-left:0px; margin-bottom:50px; margin-right:0px
+}
+#raghav{
+    margin-left:0px;
+}
+        #aboutT h2{
+         font-size: 50px; 
+      }
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+       .about-content-T p{
+          font-size: 15px;
+                      margin-top:20px;
+           margin-right:20px; 
+
+      }
+      #a .col-sm-3{
+    margin-left:0px; margin-bottom:50px; margin-right:0px
+}
+   #a .containerItem img {
+   width:299px;
+    height:300px;
+    display:block;
+    position: absolute;
+    left:60.5%;
+    transform: translate(-59.5%,-110%);
+       
+} 
+      #raghav{
+    margin-left:0px;
+}
+       #aboutT h2{
+         font-size: 50px; 
+      }
+      
+      #home, #timer,#sponsor,#contact,#S{
+          width = 100%;
+      }
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+      .about-content-T p{
+          font-size: 15px;
+                     margin-top:20px;
+margin-right:20px; 
+      }
+      #a .col-sm-3{
+    margin-left:0px; margin-bottom:50px; margin-right:0px
+}
+      #raghav{
+    margin-left:0px;
+}
+      #a .col-sm-3 h2{
+         font-size: 20px; 
+      }
+       #aboutT h2{
+         font-size: 50px; 
+      }
+}
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+      .about-content-T p{
+          font-size: 15px;
+                     margin-top:20px;
+margin-right:20px; 
+
+      }
+      #a .col-sm-3{
+    margin-left:0px; margin-bottom:50px; margin-right:0px
+}
+      #raghav{
+    margin-left:0px;
+}
+}
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+            .about-content-T p{
+                     margin-top:20px;
+margin-right:20px; 
+
+          font-size: 15px;
+      }
+#a .col-sm-3{
+    margin-left:0px; margin-bottom:50px; margin-right:0px
+}
+#raghav{
+    margin-left:0px;
+}
+}
+
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+      .about-content-T p{
+          font-size: 15px;
+                     margin-top:20px;
+margin-right:20px; 
+
+      }
+#a .col-sm-3{
+    margin-left:0px; margin-bottom:50px; margin-right:0px
+}
+      #raghav{
+    margin-left:0px;
+}
+       #aboutT h2{
+         font-size: 50px; 
+      }
+}
+
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+      .about-content-T p{
+                     margin-top:20px;
+margin-right:20px; 
+
+          font-size: 15px;
+      }
+#a .col-sm-3{
+    margin-left:0px; margin-bottom:50px; margin-right:0px
+}
+            
+ #raghav{
+    margin-left:0px;
+}
+       #aboutT h2{
+         font-size: 50px; 
+      }
+}
+
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+      .about-content-T p{
+                     margin-top:20px;
+margin-right:20px; 
+
+          font-size: 15px;
+      }
+#a .col-sm-3{
+    margin-left:0px; margin-bottom:50px; margin-right:0px
+}
+  #raghav{
+    margin-left:0px;
+}
+       #aboutT h2{
+         font-size: 50px; 
+      }
+}
