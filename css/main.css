@@ -279,9 +279,10 @@ h7 {
   background-repeat:no-repeat;
   position: relative;
   overflow: hidden;
+    padding-bottom: 100px;
     
     background-size: cover;
-  padding: 130px 0 100px;
+  padding: 150px 0 100px;
     margin-right: 0px;
 }
 
