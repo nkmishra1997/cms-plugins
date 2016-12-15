@@ -523,11 +523,15 @@ h7 {
 }
 
 .about-content-T .cont{
-    background-image: url("../images/background/about.png");
+    background-image: url("../images/background/about%20ieee.png");
     width:100%;
     background-size: cover;
     padding: 25px 25px;
     margin: 0px;
+     background-attachment: fixed;
+    background-position: center;
+
+   
 }
 
 #aboutT h2{
