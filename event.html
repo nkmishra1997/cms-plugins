@@ -1,372 +1,242 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-        
     <title>Troika'17</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">	
+    <link href="css/animate.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     <style>
-        body{
+        body {
             background-color: black;
         }
     </style>
     <!--[if lt IE 9]>
         <script src="js/html5shiv.js"></script>
         <script src="js/respond.min.js"></script>
-    <![endif] #1B7B98-->       
+    <![endif] #1B7B98-->
     <link rel="shortcut icon" href="images/ico/favicon.png">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
-    </head><!--/head-->
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png"> </head>
+<!--/head-->
 
-    <body>
-    <header id="header" role="banner">		
-        <div class="main-nav">
-            <div class="container">
-                <div class="header-top">
-                    <div class="pull-right social-icons">
-            
-						<a href="https://www.facebook.com/TroikaIeeeDTU/"><i class="fa fa-facebook"></i></a>
-						
-						<a href="https://www.youtube.com/user/ieeedtu"><i class="fa fa-youtube"></i></a>
+<body>
+    <div class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <img src="images/TroikaFinal.png" height="30px" style="margin:10px;"> </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#home">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="event.html">Events</a></li>
+                    <li><a href="index.html#sponsors">Sponsors</a></li>
+                    <li><a href="index.html#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <section id="controls" style="padding-top:150px;">
+        <div class="button-controls" align="center">
+            <button type="button" data-toggle="collapse" data-target="#all" data-parent="#accordion">All</button>
+            <button type="button" data-toggle="collapse" data-target="#software" data-parent="#accordion">Technical Software</button>
+            <button type="button" data-toggle="collapse" data-target="#hardware" data-parent="#accordion">Technical Hardware</button>
+            <button type="button" data-toggle="collapse" data-target="#designing" data-parent="#accordion">Designing</button>
+            <button type="button" data-toggle="collapse" data-target="#conference" data-parent="#accordion">Professional Conference</button>
+            <button type="button" data-toggle="collapse" data-target="#nont" data-parent="#accordion">Non-Technical</button>
+            <div class="accordion-group">
+                <div id="all" class="collapse in">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="containerItem">
+                                <h10>Bits</h10> <img class="displayed" src="images/ICONS/BITS1.png" alt="bits">
+                                <p style="margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Ultimate Coding Extravaganza</p> <a href="index1.html" onclick=s topEventPropogation(event) target="_blank" class="btn" role="button">Explore</a> </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="containerItem">
+                                <h10>Radix</h10> <img class="displayed" src="images/ICONS/RADIX1.png" alt="Radix">
+                                <p style="margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">The Test of Robotic Supremacy.</p> <a href="index1.html" target="_blank" class="btn" role="button">Explore</a> </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="containerItem">
+                                <h10>Electrocution</h10> <img class="displayed" src="images/ICONS/ELECTROCUTION1.png" alt="Electroution">
+                                <p style="margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Circuital Wizardry.</p> <a href="index1.html" target="_blank" class="btn" role="button">Explore</a> </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="containerItem">
+                                <h10>Brainwave</h10> <img class="displayed" src="images/ICONS/BRAINWAVE1.png" alt="Brainwave">
+                                <p style="margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">The Quintessential Breadboard.</p> <a href="index1.html" target="_blank" class="btn" role="button">Explore</a> </div>
+                        </div>
                     </div>
-                </div>     
-                <div class="row">	        		
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="index.html">
-                            <img class="img-responsive" src="images/TroikaFinal.png" alt="logo">
-                        </a>                    
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="containerItem">
+                                <h10>S-PAC</h10> <img class="displayed" src="images/ICONS/SPAC1.png" alt="S-PAC">
+                                <p style="margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Proffesionals Of Tomorrow.</p> <a href="index1.html" target="_blank" class="btn" role="button">Explore</a> </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="containerItem">
+                                <h10>Technovision</h10> <img class="displayed" src="images/ICONS/TECHNOVISION1.png" alt="Technovision">
+                                <p style="margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Platform Your Research.</p> <a href="index1.html" target="_blank" class="btn" role="button">Explore</a> </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="containerItem">
+                                <h10>Envision</h10> <img class="displayed" src="images/ICONS/ENVISION1.png" alt="Envision">
+                                <p style="margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">The Programming Boulevard.</p> <a href="index1.html" target="_blank" class="btn" role="button">Explore</a> </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="containerItem">
+                                <h10>Mist</h10> <img class="displayed" src="images/ICONS/MIST1.png" alt="Mist">
+                                <p style="margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Be Ready. Be Smart.</p> <a href="index1.html" target="_blank" class="btn" role="button">Explore</a> </div>
+                        </div>
                     </div>
-                    <div class="collapse navbar-collapse">
-                        <ul class="nav navbar-nav navbar-right">                 
-                            <li class="scroll"><a href="index.html">Home</a></li>
-                            <li class="scroll"><a href="index.html#explore">Explore</a></li>                         
-                            <li class="scroll active"><a href="event.html">Events</a></li>
-                               
-                            <li class="scroll"><a href="index.html#sponsor">Sponsors</a></li>
-                           <!--<li><a class="no-scroll" href="#" target="_giblank"></a></li>  --> 
-                            <li class="scroll"><a href="index.html#contact">Contact</a></li>       
-                        </ul>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="containerItem">
+                                <h10>Bytes</h10> <img class="displayed" src="images/ICONS/BYTES1.png" alt="Bytes">
+                                <p style="margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Code Your Way To Glory.</p> <a href="index1.html" target="_blank" class="btn" role="button">Explore</a> </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="containerItem">
+                                <h10>Bots</h10> <img class="displayed" src="images/ICONS/bots.png" alt="Bots">
+                                <p style="margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">The Game Of Codes.</p> <a href="index1.html" target="_blank" class="btn" role="button">Explore</a> </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="containerItem">
+                                <h10>Design Pro</h10> <img class="displayed" src="images/ICONS/DESIGNPRO1.png" alt="Design Pro">
+                                <p style="margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Creativity Infinity.</p> <a href="index1.html" target="_blank" class="btn" role="button">Explore</a> </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="containerItem">
+                                <h10>Todo en Uno</h10> <img class="displayed" src="images/ICONS/TODO%20EN%20UNO.png" alt="Todo en Uno">
+                                <p style="margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Test Your IQ.</p> <a href="index1.html" target="_blank" class="btn" role="button">Explore</a> </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="containerItem">
+                                <h10>Bulls N'Bears</h10> <img class="displayed" src="images/ICONS/bulls%20and%20bears.png" alt="BNB">
+                                <p style="margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Go Big, or Go Home.</p> <a href="index.html" target="_blank" class="btn" role="button">Explore</a> </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="containerItem">
+                                <h10>SPAVE</h10> <img class="displayed" src="images/ICONS/SPAV1.png" alt="SPAVE">
+                                <p style="margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Business Conclave.</p> <a href="index1.html" target="_blank" class="btn" role="button">Explore</a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="software" class="collapse">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="containerItem">
+                                <h10>Bits</h10> <img class="displayed" src="images/ICONS/BITS1.png" alt="bits">
+                                <p style="margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Ultimate Coding Extravaganza</p> <a href="index1.html" onclick=s topEventPropogation(event) target="_blank" class="btn" role="button">Explore</a> </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="containerItem">
+                                <h10>Bytes</h10> <img class="displayed" src="images/ICONS/BYTES1.png" alt="Bytes">
+                                <p style="margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Code Your Way To Glory.</p> <a href="index1.html" target="_blank" class="btn" role="button">Explore</a> </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="containerItem">
+                                <h10>Bots</h10> <img class="displayed" src="images/ICONS/bots.png" alt="Bots">
+                                <p style="margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">The Game Of Codes.</p> <a href="index1.html" target="_blank" class="btn" role="button">Explore</a> </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="containerItem">
+                                <h10>Envision</h10> <img class="displayed" src="images/ICONS/ENVISION1.png" alt="Envision">
+                                <p style="margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">The Programming Boulevard.</p> <a href="index1.html" target="_blank" class="btn" role="button">Explore</a> </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="containerItem">
+                                <h10>Technovision</h10> <img class="displayed" src="images/ICONS/TECHNOVISION1.png" alt="Technovision">
+                                <p style="margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Platform Your Research.</p> <a href="index1.html" target="_blank" class="btn" role="button">Explore</a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="hardware" class="collapse">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="containerItem">
+                                <h10>Radix</h10> <img class="displayed" src="images/ICONS/RADIX1.png" alt="Radix">
+                                <p style="margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">The Test of Robotic Supremacy.</p> <a href="index1.html" target="_blank" class="btn" role="button">Explore</a> </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="containerItem">
+                                <h10>Electrocution</h10> <img class="displayed" src="images/ICONS/ELECTROCUTION1.png" alt="Electroution">
+                                <p style="margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Circuital Wizardry.</p> <a href="index1.html" target="_blank" class="btn" role="button">Explore</a> </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="containerItem">
+                                <h10>Brainwave</h10> <img class="displayed" src="images/ICONS/BRAINWAVE1.png" alt="Brainwave">
+                                <p style="margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">The Quintessential Breadboard.</p> <a href="index1.html" target="_blank" class="btn" role="button">Explore</a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="designing" class="collapse">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="containerItem">
+                                <h10>Design Pro</h10> <img class="displayed" src="images/ICONS/DESIGNPRO1.png" alt="Design Pro">
+                                <p style="margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Creativity Infinity.</p> <a href="index1.html" target="_blank" class="btn" role="button">Explore</a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="conference" class="collapse">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="containerItem">
+                                <h10>S-PAC</h10> <img class="displayed" src="images/ICONS/SPAC1.png" alt="S-PAC">
+                                <p style="margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Proffesionals Of Tomorrow.</p> <a href="index1.html" target="_blank" class="btn" role="button">Explore</a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="nont" class="collapse">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="containerItem">
+                                <h10>Bulls N'Bears</h10> <img class="displayed" src="images/ICONS/bulls%20and%20bears.png" alt="BNB">
+                                <p style="margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Go Big, or Go Home.</p> <a href="index.html" target="_blank" class="btn" role="button">Explore</a> </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="containerItem">
+                                <h10>SPAVE</h10> <img class="displayed" src="images/ICONS/SPAV1.png" alt="SPAVE">
+                                <p style="margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Business Conclave.</p> <a href="index1.html" target="_blank" class="btn" role="button">Explore</a> </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="containerItem">
+                                <h10>Todo en Uno</h10> <img class="displayed" src="images/ICONS/TODO%20EN%20UNO.png" alt="Todo en Uno">
+                                <p style="margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Test Your IQ.</p> <a href="index1.html" target="_blank" class="btn" role="button">Explore</a> </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="containerItem">
+                                <h10>Mist</h10> <img class="displayed" src="images/ICONS/MIST1.png" alt="Mist">
+                                <p style="margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Be Ready. Be Smart.</p> <a href="index1.html" target="_blank" class="btn" role="button">Explore</a> </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>                    
-    </header>
-
-
-
-
-    <section id  = "controls" style = "padding-top:150px;">
-     <div class="button-controls" align = "center">
-
-        <button type="button" data-toggle = "collapse" data-target="#all" data-parent = "#accordion">All</button>
-        <button type="button" data-toggle = "collapse" data-target="#software" data-parent = "#accordion">Technical Software</button>
-        <button type="button" data-toggle = "collapse" data-target="#hardware" data-parent = "#accordion">Technical Hardware</button>
-        <button type="button" data-toggle = "collapse" data-target="#designing" data-parent = "#accordion">Designing</button> 
-        <button type="button" data-toggle = "collapse" data-target="#conference" data-parent = "#accordion">Professional Conference</button>
-        <button type="button" data-toggle = "collapse" data-target="#nont" data-parent = "#accordion">Non-Technical</button>
-         
-         <div class = "accordion-group">
-            <div id = "all" class = "collapse in">
-               <div class="row">
-                <div class="col-sm-3">
-                    <div class = "containerItem">
-                    <h10>Bits</h10>
-                        <img class = "displayed" src = "images/ICONS/BITS1.png" alt = "bits">
-                        <p style = "margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Ultimate Coding Extravaganza</p>
-                        <a href= "index1.html" onclick= stopEventPropogation(event) target="_blank" class = "btn" role = "button">Explore</a>
-                    </div>
-                   
-                   </div>
-                <div class="col-sm-3">
-                    <div class = "containerItem">
-                    <h10>Radix</h10>
-                        <img class = "displayed" src = "images/ICONS/RADIX1.png" alt = "Radix">
-                        <p style = "margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">The Test of Robotic Supremacy.</p>
-                        <a href= "index1.html" target="_blank" class = "btn" role = "button">Explore</a>
-                    </div>
-                   </div>
-                <div class="col-sm-3">
-                     <div class = "containerItem">
-                    <h10>Electrocution</h10>
-                        <img class = "displayed" src = "images/ICONS/ELECTROCUTION1.png" alt = "Electroution">
-                        <p style = "margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Circuital Wizardry.</p>
-                        <a href= "index1.html" target="_blank" class = "btn" role = "button">Explore</a>
-                    </div> 
-                   </div>
-                   <div class="col-sm-3">
-                     <div class = "containerItem">
-                    <h10>Brainwave</h10>
-                        <img class = "displayed" src = "images/ICONS/BRAINWAVE1.png" alt = "Brainwave">
-                        <p style = "margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">The Quintessential Breadboard.</p>
-                        <a href= "index1.html" target="_blank" class = "btn" role = "button">Explore</a>
-                    </div> 
-                   </div>
-                </div>
-                <div class="row">
-                <div class="col-sm-3">
-                    <div class = "containerItem">
-                    <h10>S-PAC</h10>
-                        <img class = "displayed" src = "images/ICONS/SPAC1.png" alt = "S-PAC">
-                        <p style = "margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Proffesionals Of Tomorrow.</p>
-                        <a href= "index1.html" target="_blank" class = "btn" role = "button">Explore</a>
-                    </div>
-                   
-                   </div>
-                <div class="col-sm-3">
-                    <div class = "containerItem">
-                    <h10>Technovision</h10>
-                        <img class = "displayed" src = "images/ICONS/TECHNOVISION1.png" alt = "Technovision">
-                        <p style = "margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Platform Your Research.</p>
-                        <a href= "index1.html" target="_blank" class = "btn" role = "button">Explore</a>
-                    </div>
-                   </div>
-                <div class="col-sm-3">
-                     <div class = "containerItem">
-                    <h10>Envision</h10>
-                        <img class = "displayed" src = "images/ICONS/ENVISION1.png" alt = "Envision">
-                        <p style = "margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">The Programming Boulevard.</p>
-                        <a href= "index1.html" target="_blank" class = "btn" role = "button">Explore</a>
-                    </div> 
-                   </div>
-                   <div class="col-sm-3">
-                     <div class = "containerItem">
-                    <h10>Mist</h10>
-                        <img class = "displayed" src = "images/ICONS/MIST1.png" alt = "Mist">
-                        <p style = "margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Be Ready. Be Smart.</p>
-                        <a href= "index1.html" target="_blank" class = "btn" role = "button">Explore</a>
-                    </div> 
-                   </div>
-                </div>
-                <div class="row">
-                <div class="col-sm-3">
-                    <div class = "containerItem">
-                    <h10>Bytes</h10>
-                        <img class = "displayed" src = "images/ICONS/BYTES1.png" alt = "Bytes">
-                        <p style = "margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Code Your Way To Glory.</p>
-                        <a href= "index1.html" target="_blank" class = "btn" role = "button">Explore</a>
-                    </div>
-                   
-                   </div>
-                <div class="col-sm-3">
-                    <div class = "containerItem">
-                    <h10>Bots</h10>
-                        <img class = "displayed" src = "images/ICONS/bots.png" alt = "Bots">
-                        <p style = "margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">The Game Of Codes.</p>
-                        <a href= "index1.html" target="_blank" class = "btn" role = "button">Explore</a>
-                    </div>
-                   </div>
-                <div class="col-sm-3">
-                     <div class = "containerItem">
-                    <h10>Design Pro</h10>
-                        <img class = "displayed" src = "images/ICONS/DESIGNPRO1.png" alt = "Design Pro">
-                        <p style = "margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Creativity Infinity.</p>
-                        <a href= "index1.html" target="_blank" class = "btn" role = "button">Explore</a>
-                    </div> 
-                   </div>
-                   <div class="col-sm-3">
-                     <div class = "containerItem">
-                    <h10>Todo en Uno</h10>
-                        <img class = "displayed" src = "images/ICONS/TODO%20EN%20UNO.png" alt = "Todo en Uno">
-                        <p style = "margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Test Your IQ.</p>
-                        <a href= "index1.html" target="_blank" class = "btn" role = "button">Explore</a>
-                    </div> 
-                   </div>
-                </div>
-                <div class="row">
-                <div class="col-sm-3">
-                    <div class = "containerItem">
-                    <h10>Bulls N'Bears</h10>
-                        <img class = "displayed" src = "images/ICONS/bulls%20and%20bears.png" alt = "BNB">
-
-                        <p style = "margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Go Big, or Go Home.</p>
-                        <a href= "index.html" target="_blank" class = "btn" role = "button">Explore</a>
-
-                    </div>
-                   
-                   </div>
-                <div class="col-sm-3">
-                    <div class = "containerItem">
-                    <h10>SPAVE</h10>
-                       <img class = "displayed" src = "images/ICONS/SPAV1.png" alt = "SPAVE">
-                        <p style = "margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Business Conclave.</p>
-                        <a href= "index1.html" target="_blank" class = "btn" role = "button">Explore</a>
-                    </div>
-                   </div>
-
-                </div>
         </div>
-        <div id = "software" class = "collapse">
-                <div class="row">
-                <div class="col-sm-3">
-                    <div class = "containerItem">
-                    <h10>Bits</h10>
-                        <img class = "displayed" src = "images/ICONS/BITS1.png" alt = "bits">
-                        <p style = "margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Ultimate Coding Extravaganza</p>
-                        <a href= "index1.html" onclick= stopEventPropogation(event) target="_blank" class = "btn" role = "button">Explore</a>
-                    </div>
-                    </div>
-                   <div class="col-sm-3">
-                    <div class = "containerItem">
-                    <h10>Bytes</h10>
-                        <img class = "displayed" src = "images/ICONS/BYTES1.png" alt = "Bytes">
-                        <p style = "margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Code Your Way To Glory.</p>
-                        <a href= "index1.html" target="_blank" class = "btn" role = "button">Explore</a>
-                    </div>
-                   
-                   </div>
-                <div class="col-sm-3">
-                    <div class = "containerItem">
-                    <h10>Bots</h10>
-                        <img class = "displayed" src = "images/ICONS/bots.png" alt = "Bots">
-                        <p style = "margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">The Game Of Codes.</p>
-                        <a href= "index1.html" target="_blank" class = "btn" role = "button">Explore</a>
-                    </div>
-                   </div>
-        <div class="col-sm-3">
-                     <div class = "containerItem">
-                    <h10>Envision</h10>
-                        <img class = "displayed" src = "images/ICONS/ENVISION1.png" alt = "Envision">
-                        <p style = "margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">The Programming Boulevard.</p>
-                        <a href= "index1.html" target="_blank" class = "btn" role = "button">Explore</a>
-                    </div> 
-                   </div>
-                                       </div>
-
-            <div class="row">
-
-                <div class="col-sm-3">
-                    <div class = "containerItem">
-                    <h10>Technovision</h10>
-                        <img class = "displayed" src = "images/ICONS/TECHNOVISION1.png" alt = "Technovision">
-                        <p style = "margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Platform Your Research.</p>
-                        <a href= "index1.html" target="_blank" class = "btn" role = "button">Explore</a>
-                    </div>
-                   </div>
-                </div>
-         </div>
-             <div id = "hardware" class = "collapse">
-                <div class = "row">
-                 <div class="col-sm-3">
-                    <div class = "containerItem">
-                    <h10>Radix</h10>
-                        <img class = "displayed" src = "images/ICONS/RADIX1.png" alt = "Radix">
-                        <p style = "margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">The Test of Robotic Supremacy.</p>
-                        <a href= "index1.html" target="_blank" class = "btn" role = "button">Explore</a>
-                    </div>
-                   </div>
-                <div class="col-sm-3">
-                     <div class = "containerItem">
-                    <h10>Electrocution</h10>
-                        <img class = "displayed" src = "images/ICONS/ELECTROCUTION1.png" alt = "Electroution">
-                        <p style = "margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Circuital Wizardry.</p>
-                        <a href= "index1.html" target="_blank" class = "btn" role = "button">Explore</a>
-                    </div> 
-                   </div>
-                   <div class="col-sm-3">
-                     <div class = "containerItem">
-                    <h10>Brainwave</h10>
-                        <img class = "displayed" src = "images/ICONS/BRAINWAVE1.png" alt = "Brainwave">
-                        <p style = "margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">The Quintessential Breadboard.</p>
-                        <a href= "index1.html" target="_blank" class = "btn" role = "button">Explore</a>
-                    </div> 
-                   </div>
-                 </div>
-             </div>
-            <div id = "designing" class = "collapse">
-                <div class = "row">
-        <div class="col-sm-3">
-                     <div class = "containerItem">
-                    <h10>Design Pro</h10>
-                        <img class = "displayed" src = "images/ICONS/DESIGNPRO1.png" alt = "Design Pro">
-                        <p style = "margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Creativity Infinity.</p>
-                        <a href= "index1.html" target="_blank" class = "btn" role = "button">Explore</a>
-                    </div> 
-                   </div>
-             </div>
-                </div>
-             <div id = "conference" class = "collapse">
-                 <div class = "row">
-                <div class="col-sm-3">
-                    <div class = "containerItem">
-                    <h10>S-PAC</h10>
-                        <img class = "displayed" src = "images/ICONS/SPAC1.png" alt = "S-PAC">
-                        <p style = "margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Proffesionals Of Tomorrow.</p>
-                        <a href= "index1.html" target="_blank" class = "btn" role = "button">Explore</a>
-                    </div>
-                    </div>
-             </div>
-             </div>
-            <div id = "nont" class = "collapse">
-                <div class = "row">
-                    <div class="col-sm-3">
-                    <div class = "containerItem">
-                    <h10>Bulls N'Bears</h10>
-                        <img class = "displayed" src = "images/ICONS/bulls%20and%20bears.png" alt = "BNB">
-
-                        <p style = "margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Go Big, or Go Home.</p>
-                        <a href= "index.html" target="_blank" class = "btn" role = "button">Explore</a>
-
-                    </div>
-                   
-                   </div>
-                <div class="col-sm-3">
-                    <div class = "containerItem">
-                    <h10>SPAVE</h10>
-                       <img class = "displayed" src = "images/ICONS/SPAV1.png" alt = "SPAVE">
-                        <p style = "margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Business Conclave.</p>
-                        <a href= "index1.html" target="_blank" class = "btn" role = "button">Explore</a>
-                    </div>
-                   </div>
-                    <div class="col-sm-3">
-                     <div class = "containerItem">
-                    <h10>Todo en Uno</h10>
-                        <img class = "displayed" src = "images/ICONS/TODO%20EN%20UNO.png" alt = "Todo en Uno">
-                        <p style = "margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Test Your IQ.</p>
-                        <a href= "index1.html" target="_blank" class = "btn" role = "button">Explore</a>
-                    </div> 
-                   </div>
-                    <div class="col-sm-3">
-                     <div class = "containerItem">
-                    <h10>Mist</h10>
-                        <img class = "displayed" src = "images/ICONS/MIST1.png" alt = "Mist">
-                        <p style = "margin-top:150px; font-family:Roboto,sans-serif; font-size:20px; font-weight:400">Be Ready. Be Smart.</p>
-                        <a href= "index1.html" target="_blank" class = "btn" role = "button">Explore</a>
-                    </div> 
-                   </div>
-                </div>
-             </div>
-         </div>
-    </div>
     </section>
-        
-        
-
     <footer id="footer">
         <div class="container">
             <div class="text-center">
-                <p>All Rights Reserved. <br> Designed by <a target="_blank" href="http://www.ieeedtu.com/ieeedtu/">IEEE DTU</a></p>                
+                <p>All Rights Reserved.
+                    <br> Designed by <a target="_blank" href="http://www.ieeedtu.com/ieeedtu/">IEEE DTU</a></p>
             </div>
         </div>
     </footer>
     <!--/#footer-->
-
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
@@ -376,18 +246,19 @@
     <script type="text/javascript" src="js/coundown-timer.js"></script>
     <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
     <script type="text/javascript" src="js/jquery.nav.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>  
-        <script type = "text/javascript">
-            $('.collapse').on('show.bs.collapse', function () {
-                    $('.collapse.in').each(function(){
-                        $(this).collapse('hide');
-    });
-  });
-</script>
-<script type="text/javascript">
-function stopEventPropogation(e){
-e.stopPropogation()
-}
-</script>
-        </body>
-    </html>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript">
+        $('.collapse').on('show.bs.collapse', function () {
+            $('.collapse.in').each(function () {
+                $(this).collapse('hide');
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        function stopEventPropogation(e) {
+            e.stopPropogation()
+        }
+    </script>
+</body>
+
+</html>
