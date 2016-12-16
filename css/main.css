@@ -54,7 +54,7 @@ h2 {
     color: darkblue;
     text-align: right;
     font-weight: 550;
-    margin-right: 50px;
+    /*    margin-right: 50px;*/
 }
 
 h7 {
@@ -636,7 +636,7 @@ h7 {
 
 #sponsor {
     background-color: #1881a2;
-    background-image: url("../images/background/sponsors-bg.png");
+    background-image: url("../images/sponsor-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -796,8 +796,8 @@ h7 {
 /****Buttons***/
 
 #controls {
-    margin-top: 25px;
-    margin-bottom: 25px;
+/*    margin-top: 25px;*/
+/*    margin-bottom: 25px;*/
 }
 
 .button-controls {
@@ -894,9 +894,11 @@ h11 {
 
 #snighdhaa,
 #shourya {
+/*
     margin-left: 0px;
     margin-bottom: 50px;
     margin-right: 0px
+*/
 }
 
 #a .containerItem {
@@ -917,7 +919,7 @@ h11 {
 }
 
 #raghav {
-    margin-left: 200px;
+/*    margin-left: 200px;*/
 }
 
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
@@ -1224,4 +1226,11 @@ h11 {
     #S {
         width=100%;
     }
+}
+.preloader {
+    position: fixed;
+    width:100%;
+    height: 100%;
+    background-color: black;
+    z-index: 99;
 }
