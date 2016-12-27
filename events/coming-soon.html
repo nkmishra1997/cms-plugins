@@ -58,10 +58,6 @@
                     <br/>
                     <h2 class="subtitle">Meanwhile, we are working on our problem statement and we'll be ready very soon</h2>
                     <br/>
-                    <form class="form-inline validate signup" action="http://scoopthemes.us8.list-manage.com/subscribe/post-json?u=c535e62cabdc2bfeb87bff6de&amp;id=d969b07f82&c=?" method="get" role="form">
-                        <div class="form-group">
-                            <input type="email" class="form-control" name="EMAIL" id="exampleInputEmail1" placeholder="Enter your email address"> </div>
-                        <input type="submit" name="subscribe" value="Get notified!" class="btn btn-theme"> </form>
                     <br/> </div>
                 <div class="col-sm-12 align-center">
                     <ul class="social-network social-circle">
@@ -103,20 +99,19 @@
 
         function register($form) {
             $.ajax({
-                type: $form.attr('method')
-                , url: $form.attr('action')
-                , data: $form.serialize()
-                , cache: false
-                , dataType: 'json'
-                , contentType: "application/json; charset=utf-8"
-                , error: function (err) {
+                type: $form.attr('method'),
+                url: $form.attr('action'),
+                data: $form.serialize(),
+                cache: false,
+                dataType: 'json',
+                contentType: "application/json; charset=utf-8",
+                error: function (err) {
                     alert("Could not connect to the registration server. Please try again later.");
-                }
-                , success: function (data) {
+                },
+                success: function (data) {
                     if (data.result != "success") {
                         appendResult('Wrong Email Or You Are Already Registered, Try Again', 'error', 'exclamation');
-                    }
-                    else {
+                    } else {
                         // It worked, carry on...
                         appendResult('Successful, Check Your Email For Confirmation ', 'success', 'check');
                     }
